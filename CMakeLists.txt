@@ -37,6 +37,7 @@ enable_testing()
 add_executable(unit_tests
     tests/test_main.cpp
     tests/test_fixed_block_allocator.cpp
+    tests/core/lock_free_ring_buffer_test.cpp
 )
 target_link_libraries(unit_tests PRIVATE miniconsole_core gtest_main)
 set_project_warnings(unit_tests)

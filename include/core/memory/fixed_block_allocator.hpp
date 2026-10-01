@@ -3,8 +3,6 @@
 #include <atomic>
 #include <cstddef>
 #include <cstdint>
-#include <new>
-#include <vector>
 
 namespace miniconsole::core::memory {
 
